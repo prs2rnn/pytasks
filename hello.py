@@ -1,3 +1,6 @@
 name = input('Ваше имя: ')
 
-print('Привет,', name + '!')
+def say_hello(name):
+    print('Привет,', name + '!')
+    
+say_hello(name)
